@@ -1,0 +1,62 @@
+body {
+  background: #ffd1dc;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.top {
+  background: #ff69b4;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.coins {
+  font-size: 18px;
+}
+
+.quote {
+  background: #ffb6c1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.garden, .shop, .collection {
+  background: #ff7fbf;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+button {
+  background: #fff;
+  color: #ff69b4;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffe6f0;
+}
+
+.certificate {
+  display: none;
+  background: #ff69b4;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
