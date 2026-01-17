@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bunny Haven</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top">
+    <h1>Bunny Haven 🌸🐰</h1>
+    <div class="coins">Pink Coins: <span id="coins">0</span></div>
+  </div>
+
+  <div class="quote" id="quote"></div>
+
+  <div class="main">
+    <div class="garden">
+      <h2>🌸 Pink Garden</h2>
+      <div class="garden-actions">
+        <button onclick="plantFlower()">Plant Pink Flower (+5 coins)</button>
+        <button onclick="feedRabbit()">Feed Rabbit (+10 coins)</button>
+        <button onclick="petRabbit()">Pet Rabbit (+2 coins)</button>
+      </div>
+      <div class="garden-display" id="gardenDisplay"></div>
+    </div>
+
+    <div class="shop">
+      <h2>🛍️ Bunny Shop</h2>
+      <button onclick="buyBasket()">Buy Bunny Basket (50 coins)</button>
+      <div class="shop-note">Bunnies range from Common → Legendary</div>
+      <div id="bunnyResult"></div>
+    </div>
+
+    <div class="collection">
+      <h2>🐰 Bunny Collection</h2>
+      <div id="collectionList"></div>
+    </div>
+  </div>
+
+  <div class="certificate" id="certificate">
+    <h2>🎉 You Collected All Bunnies!</h2>
+    <p>Download your certificate:</p>
+    <button onclick="window.print()">Print Certificate</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
